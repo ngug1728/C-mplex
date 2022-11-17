@@ -1,11 +1,16 @@
 #include <stdio.h>
-#define Count 2
-  int book(int bravo, int charlie );
+  int power(int base, int exponent );
 int main() {
-  
-return 0;
+  const length;
+ return 0;
 }
-
-  int book(int bravo, int charlie ) {
-  
+  int power(int bravo, int charlie ) {
+   int count = 1;
+  if(exponent=undefined){
+    exponent=2;
+  }
+  for(int i = 1;i<=exponent;i++){
+    count= count*base;
+  }
+return count;
   }
