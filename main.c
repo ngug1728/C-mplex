@@ -1,16 +1,17 @@
 #include <stdio.h>
-  int power(int base, int exponent );
 int main() {
-  const length;
- return 0;
+    int base, exp, i;
+    long double result = 1.0;
+    printf("Enter a base number: ");
+    scanf("%d", &base);
+    printf("Enter an exponent: ");
+    scanf("%d", &exp);
+
+    for (i=1;i<=exp;i++) {
+	result*=base;
+    }
+    printf("Answer = %.0Lf", result);
+    return 0;
 }
-  int power(int bravo, int charlie ) {
-   int count = 1;
-  if(exponent=undefined){
-    exponent=2;
-  }
-  for(int i = 1;i<=exponent;i++){
-    count= count*base;
-  }
-return count;
-  }
+  
+ 
