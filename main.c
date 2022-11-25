@@ -7,8 +7,9 @@ int main() {
     printf("Enter an exponent: ");
     scanf("%d", &exp);
 
-    for (i=1;i<=exp;i++) {
+    while (exp != 0){
 	result*=base;
+	    --exp;
     }
     printf("Answer = %.0Lf", result);
     return 0;
